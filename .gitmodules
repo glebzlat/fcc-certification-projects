@@ -1,0 +1,6 @@
+[submodule "projects/product-landing"]
+	path = projects/product-landing
+	url = https://github.com/glebzlat/product-landing.git
+[submodule "projects/technical-doc"]
+	path = projects/technical-doc
+	url = https://github.com/glebzlat/technical-doc.git
