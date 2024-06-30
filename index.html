@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Certification projects - Main Page</title>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <button class="light-mode-switch">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="" class="header-link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </header>
+      <main>
+        <h1 class="title">My fCC certification projects</h1>
+        <p class="intro">
+          Hi, I am Gleb Zlatanov
+          <a href="https://github.com/glebzlat" class="inline-link">@glebzlat</a
+          >, and this is the main page for the projects that I initially made as
+          freeCodeCamp projects, but then I've decided to finalize and publish
+          them on the Internet.
+        </p>
+
+        <section class="projects">
+          <h2>Projects</h2>
+          <a
+            href="projects/technical_documentation/index.html"
+            class="project-link"
+          >
+            <div class="project">
+              <img
+                src="img/project-technical-doc.png"
+                alt="Technical documentation project preview image"
+                class="project-img"
+              />
+              <div class="project-description">
+                <h3>Technical Documentation</h3>
+                <p>
+                  Lua language documentation page. Key moments: page url changes
+                  on scroll; dynamically added copy buttons for code blocks;
+                  scroll to top button.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a href="projects/product_landing/index.html" class="project-link">
+            <div class="project">
+              <img
+                src="img/project-product-landing.png"
+                alt="Product landing project preview image"
+                class="project-img"
+              />
+              <div class="project-description">
+                <h3>Product Landing Page</h3>
+                <p>
+                  Webpage presenting TubeMaster company and its products.
+                  Contains videos, text presentation, product cards and feedback
+                  form.
+                </p>
+              </div>
+            </div>
+          </a>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
